@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>সরকারি ওয়েবসাইট ব্যর্থতার মেলা</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GovFailBD — বাংলাদেশের ডিজিটাল ট্র্যাজেডি</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
-      background-image: repeating-linear-gradient(45deg, #d3d3d3, #d3d3d3 10px, #f5f5f5 10px, #f5f5f5 20px);
-      font-family: 'Arial', sans-serif;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag-map_of_Bangladesh.svg/1920px-Flag-map_of_Bangladesh.svg.png');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
     }
   </style>
 </head>
-<body class="text-black min-h-screen flex flex-col items-center justify-start py-10 px-4">
-  <!-- Header -->
-  <div class="text-center mb-10">
-    <h1 class="text-4xl font-bold text-red-700 underline decoration-dotted">
-      সরকারি ওয়েবসাইট ব্যর্থতার মেলা
-    </h1>
-    <p class="mt-2 text-gray-700">— ডিজাইনেও ব্যর্থতা, সার্ভিসেও ব্যর্থতা —</p>
-  </div>
+<body class="bg-green-50 font-sans">
 
-  <!-- Troll Boxes -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
-    <a href="server-down.html" class="bg-white p-6 rounded border-l-4 border-red-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-red-600 animate-pulse">🔌 সার্ভার ডাউন</h2>
-      <p>শেষ ২ বছর ধরে মেইন্টেনেন্সে! এখনো আপডেট হচ্ছে না।</p>
-    </a>
+  <!-- Header Section -->
+  <section class="bg-green-800 text-white py-10 px-4 shadow-xl">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold">
+        🇧🇩 ডিজিটাল না, ডিজাস্টার বাংলাদেশ!
+      </h1>
+      <p class="text-green-100 mt-4 text-lg italic">
+        অনলাইন সেবা মানেই — CAPTCHA যুদ্ধ, OTP না আসা, আর সার্ভার ছুটিতে!<br>
+        এখানে আপনি পাবেন ট্রল আর ট্র্যাজেডির একসাথে চমৎকার মিশেল।
+      </p>
+    </div>
+  </section>
 
-    <a href="live-status.html" class="bg-white p-6 rounded border-l-4 border-yellow-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-yellow-600 animate-bounce">📶 লাইভ স্ট্যাটাস</h2>
-      <p>তথ্য unavailable, আর লোডিং... চলছেই।</p>
-    </a>
+  <!-- Sub Header -->
+  <section class="bg-red-700 text-white py-8 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold">
+        💥 সরকারি ওয়েবসাইট সার্কাসে আপনাকে স্বাগতম!
+      </h2>
+      <p class="text-white mt-3 text-base md:text-lg italic">
+        যেখানে ফর্ম পূরণ মানেই ৩ দিন কষ্টের প্রস্তুতি, আর লগইন মানেই পরিণাম — "503 Service Unavailable" 😵<br>
+        চলুন দেখি, আমাদের অনলাইন সেবাগুলো কতটা অনলাইন!
+      </p>
+    </div>
+  </section>
 
-    <a href="job.html" class="bg-white p-6 rounded border-l-4 border-blue-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-blue-600 animate-pulse">📄 চাকরি অনিশ্চিত</h2>
-      <p>আবেদন করেছি ৩ বছর আগে, এখনো রেজাল্ট দেয়নি!</p>
-    </a>
+  <!-- Feature Intro -->
+  <section class="bg-yellow-100 text-gray-900 py-8 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-black">
+        🎯 এখানে যা যা পাবেন:
+      </h2>
+      <p class="text-gray-800 mt-3 text-base md:text-lg italic">
+        প্রতিটি ক্লিক মানেই একেকটা ডিজিটাল কষ্টের জাদুঘরে প্রবেশ — ট্রল, তথ্য ও অভিজ্ঞতার এক অনন্য সংগ্রহশালা!
+      </p>
+    </div>
+  </section>
 
-    <a href="nu-result.html" class="bg-white p-6 rounded border-l-4 border-green-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-green-600 animate-spin">🎓 জাতীয় বিশ্ববিদ্যালয় রেজাল্ট</h2>
-      <p>ওয়েট করো ভাই, সার্ভার এখনো চা খাচ্ছে।</p>
-    </a>
+  <!-- Feature Boxes -->
+  <section class="bg-white py-12 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
 
-    <a href="nid.html" class="bg-white p-6 rounded border-l-4 border-purple-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-purple-600 animate-ping">🪪 NID চেক করো</h2>
-      <p>OTP চাচ্ছে, কিন্তু পাঠাবে না।</p>
-    </a>
+      <!-- NU Result -->
+      <a href="#" class="bg-gradient-to-br from-yellow-200 to-yellow-50 border-l-4 border-yellow-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-yellow-800">📚 NU রেজাল্ট ট্র্যাজেডি</h3>
+        <p class="mt-2 text-sm text-yellow-700">রেজাল্ট দিবে বলে অপেক্ষায় বসে থাকুন — কিন্তু সার্ভার যেন ঈদের চাঁদ, দেখা মেলে না!</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
 
-    <a href="license.html" class="bg-white p-6 rounded border-l-4 border-pink-500 shadow-md hover:scale-105 transition">
-      <h2 class="text-xl font-bold text-pink-600 animate-bounce">📜 লাইসেন্স ভেরিফিকেশন</h2>
-      <p>ভেরিফাই করার চেয়ে লাইসেন্স বানানো সহজ।</p>
-    </a>
-  </div>
+      <!-- Govt Site General Fail -->
+      <a href="#" class="bg-gradient-to-br from-red-200 to-red-50 border-l-4 border-red-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-red-800">🖥️ সরকারি সাইট = 404.com</h3>
+        <p class="mt-2 text-sm text-red-700">OTP আসে না, Captcha ভুল, Login দিলে freeze — আর নিচে লেখা "Developed by Expert Team"!</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
 
-  <!-- 😎 Funny Developer Info Section -->
-  <div class="mt-10 bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded shadow-md w-full max-w-xl text-sm">
-    <p class="font-bold text-yellow-800">💻 সাইট ডিজাইন করেছেন:</p>
-    <p class="text-gray-800">🤡 <strong>আমির হামজা</strong> — একজন বিশিষ্ট ট্রল ইঞ্জিনিয়ার যিনি সরকারি ওয়েবসাইটে ঢুকে <span class="italic">“এই পেইজ কাজ করছে না”</span> দেখে অনুপ্রাণিত হয়েছেন।</p>
-    <p class="mt-2">📘 <a href="https://www.facebook.com/share/1C8RnJ2qKW/" target="_blank" class="text-blue-600 underline">ফেসবুকে খুঁজে পান এখানে</a></p>
-    <p class="mt-1">🧠 কোড লেখা হয়েছে ঘুমের মাঝে — আর ডিজাইন করা হয়েছে সরকারি সাইট দেখে কাঁদতে কাঁদতে।</p>
-  </div>
+      <!-- DBID Site -->
+      <a href="#" class="bg-gradient-to-br from-green-200 to-green-50 border-l-4 border-green-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-green-800">📄 তথ্য সংশোধন মানেই নতুন জন্ম</h3>
+        <p class="mt-2 text-sm text-green-700">একবার ভুল করলেই অনলাইন সিস্টেম থেকে আজীবনের ব্যান — নতুন আবেদন, নতুন অপেক্ষা!</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
 
-  <!-- Footer -->
-  <footer class="mt-10 text-center text-sm text-gray-500">
-    © ২০২৫ - ট্রল.গভ.বিডি | ব্যর্থতার অফিশিয়াল সংগ্রহশালা
-  </footer>
+      <!-- General Services Fail -->
+      <a href="#" class="bg-gradient-to-br from-blue-200 to-blue-50 border-l-4 border-blue-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-blue-800">🔧 রিনিউ/সার্ভিস মানেই ধৈর্যের পরীক্ষাগার</h3>
+        <p class="mt-2 text-sm text-blue-700">সার্ভার ডাউন, captcha ভুল, আর Retry অনুরোধ — প্রতিদিনের নাটক!</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
+
+      <!-- Help Line Troll -->
+      <a href="#" class="bg-gradient-to-br from-purple-200 to-purple-50 border-l-4 border-purple-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-purple-800">📞 হেল্পলাইন — শুধু বাজে, কেউ ধরে না!</h3>
+        <p class="mt-2 text-sm text-purple-700">কল দিতে দিতে মনে হয় প্রেমিকার অপেক্ষায় আছি — ধরবে তো ধরবে, শেষে কেটে গেল!</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
+
+      <!-- Job Applications -->
+      <a href="#" class="bg-gradient-to-br from-pink-200 to-pink-50 border-l-4 border-pink-500 p-6 rounded-xl shadow hover:scale-105 transform transition duration-300">
+        <h3 class="text-xl font-bold text-pink-800">📝 চাকরি আবেদন = সার্ভার আত্নহত্যা!</h3>
+        <p class="mt-2 text-sm text-pink-700">SMS ঠিকঠাক, কিন্তু সাইট খুলতেই browser বলে: "আমি পারব না ভাই!"</p>
+        <p class="text-xs mt-3 font-semibold text-gray-600">😂 হাসতে চাইলে টোকা দিন — কাঁদতেও পারেন!</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Warning -->
+  <p class="text-center text-red-500 mt-6 font-mono tracking-wide text-sm md:text-base">
+    ⚠️ সতর্কবার্তা: এই সাইটে ঢুকলে আপনি সরকারি কষ্টে হিরো হয়ে উঠবেন — ধৈর্যের জন্য সম্মান জানাই! 🏅
+  </p>
+
 </body>
 </html>
